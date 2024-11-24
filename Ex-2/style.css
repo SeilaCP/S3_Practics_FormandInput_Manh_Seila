@@ -30,6 +30,10 @@ select
     border: solid 1px rgb(193, 191, 191);
     color: rgb(197, 197, 197);;
 }
+span
+{
+    font-size: 0.8em;
+}
 .container
 {
     width: 35%;
