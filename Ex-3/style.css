@@ -8,7 +8,7 @@
 
 .mainContainer
 {
-    width: 40vw;
+    width: 250px;
     display: flex;
     flex-direction: column;
     padding: 1em;
