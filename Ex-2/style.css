@@ -8,6 +8,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
 }
 input[type = text]
 {
@@ -31,7 +32,7 @@ select
 }
 .container
 {
-    width: 40%;
+    width: 35%;
     display: grid;
     grid-template-rows: 50px auto 50px;
     padding: 1em;
@@ -42,15 +43,16 @@ select
     align-items: center;
     background-color: rgb(204, 195, 195);
     border-radius:1em 1em 0 0;
-    padding: 1em;
+    padding: 0.5em;
 }
 .mainContain
 {
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr) 2fr;
-    gap: 1em;
-    padding: 0.5em;
+    grid-template-rows: repeat(6, 1fr) 1fr;
+    column-gap: 1em;
+    padding: 1.5em;
 }
 
 .firstName
@@ -122,6 +124,7 @@ select
 }
 .button
 {
+    text-align: center;
     width: 100px;
     padding: 0.5em;
     color: white;
