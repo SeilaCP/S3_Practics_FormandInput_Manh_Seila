@@ -58,7 +58,21 @@ span
     column-gap: 1em;
     padding: 1.5em;
 }
-
+.range
+{
+    display: flex;
+    flex-direction: row;
+}
+.range input
+{
+    flex-grow: 1;
+}
+.range div{
+    background-color: green;
+    border-radius: 0.2em;
+    color: aliceblue;
+    padding: 0.2em;
+}
 .firstName
 {
     display: flex;
