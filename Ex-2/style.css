@@ -36,7 +36,7 @@ span
 }
 .container
 {
-    width: 35%;
+    width: 37%;
     display: grid;
     grid-template-rows: 50px auto 50px;
     padding: 1em;
